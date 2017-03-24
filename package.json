@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/riodel27/Delta-Rail/issues"
   },
-  "homepage": "https://github.com/riodel27/Delta-Rail#readme"
+  "homepage": "https://github.com/riodel27/Delta-Rail#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
 }
