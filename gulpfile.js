@@ -11,7 +11,8 @@ gulp.task('server', function(){
 
 gulp.task('sass', function(){
 	return gulp.src('app/scss/*.scss')
-		.pipe(sass())
+		.pipe(sass({
+			includePaths: ['./bower_components/foundation-sites/scss']}))
 		.pipe(gulp.dest('css'))
 		.pipe(browserSync.stream());
 });
