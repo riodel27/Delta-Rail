@@ -3817,8 +3817,13 @@ a.thumbnail {
     text-align: center; }
   .mob-nav li {
     margin-bottom: 0.9375rem;
-    font-size: 0.8125rem;
-    color: white; }
+    font-size: 0.8125rem; }
+  .mob-nav a {
+    color: #7aa7c0; }
+  .mob-nav a:hover {
+    padding-bottom: 5px;
+    border-bottom: solid 1.5px white;
+    color: #fefefe; }
 
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);

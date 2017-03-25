@@ -39,8 +39,16 @@
   li{
     margin-bottom: rem-calc(15);
     font-size: rem-calc(13);
-    color: white;
   }
+  a{
+    color: #7aa7c0;
+  }
+  a:hover{
+    padding-bottom: 5px;
+    border-bottom: solid 1.5px white;
+    color: $white;
+  }
+
 }
 
 .change .bar1 {
