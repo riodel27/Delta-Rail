@@ -44,16 +44,16 @@
               <div class="bar2"></div>
               <div class="bar3"></div>
             </div>
+          </div>
 
-            <div class="mob-nav">
-              <ul>
-                <a href=""><li>INTRO</li></a>
-                <a href=""><li>ABOUT US</li></a>
-                <a href=""><li>SERVICED</li></a>
-                <a href=""><li>COMPANY</li></a>
-                <a href=""><li>CONTACT US</li></a>
-              </ul>
-            </div>
+          <div class="mob-nav">
+            <ul>
+              <a href=""><li>INTRO</li></a>
+              <a href=""><li>ABOUT US</li></a>
+              <a href=""><li>SERVICED</li></a>
+              <a href=""><li>COMPANY</li></a>
+              <a href=""><li>CONTACT US</li></a>
+            </ul>
           </div>
 
           <div class="hero">
@@ -111,6 +111,18 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
+
+        <script type="text/javascript">
+          $(document).ready(function(){
+              $('.icon').click(function(){
+                $('.mob-nav').slideToggle('slow');
+              });
+          });
+
+          function myFunction(x){
+            x.classList.toggle('change');
+          }
+        </script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

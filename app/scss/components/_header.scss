@@ -29,4 +29,30 @@
 
 .mob-nav{
   display: none;
+  background-color: #386680;
+  padding-bottom: rem-calc(20);
+  ul{
+    list-style-type: none;
+    text-align: center;
+  }
+
+  li{
+    margin-bottom: rem-calc(15);
+    font-size: rem-calc(13);
+    color: white;
+  }
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+  background-color:$black;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -3px) ;
+  background-color:$black;
 }

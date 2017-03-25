@@ -3809,4 +3809,26 @@ a.thumbnail {
   display: none; }
 
 .mob-nav {
-  display: none; }
+  display: none;
+  background-color: #386680;
+  padding-bottom: 1.25rem; }
+  .mob-nav ul {
+    list-style-type: none;
+    text-align: center; }
+  .mob-nav li {
+    margin-bottom: 0.9375rem;
+    font-size: 0.8125rem;
+    color: white; }
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+  background-color: #0a0a0a; }
+
+.change .bar2 {
+  opacity: 0; }
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -3px);
+  background-color: #0a0a0a; }
