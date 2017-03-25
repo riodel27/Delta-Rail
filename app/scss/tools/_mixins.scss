@@ -15,3 +15,11 @@
 		@media (min-width: 75em) {@content;}
 	}
 }
+
+@mixin bar(){
+	width: rem-calc(32);
+	height: rem-calc(4);
+	background-color: $secondary-color;
+	margin: rem-calc(5) 0;
+	transition: 0.5s;
+}

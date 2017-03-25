@@ -1,0 +1,32 @@
+.header{
+  background-color:  #386680;
+  display: flex;
+
+}
+
+.logo{
+  flex: 4;
+  color: white;
+  img{
+    margin: rem-calc(20) rem-calc(10);
+  }
+}
+.contact-info{
+  display: none;
+}
+
+.icon{
+  flex: 1;
+  cursor: pointer;
+  padding: rem-calc(30) 0 0 rem-calc(20);
+    .bar1, .bar2, .bar3{
+      @include bar();
+    }
+}
+.nav{
+  display: none;
+}
+
+.mob-nav{
+  display: none;
+}

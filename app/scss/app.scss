@@ -44,3 +44,7 @@
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
+
+//------------------------------------
+//COMPONENTS
+@import "components/header";
