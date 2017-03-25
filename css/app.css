@@ -3816,12 +3816,12 @@ a.thumbnail {
     list-style-type: none;
     text-align: center; }
   .mob-nav li {
-    margin-bottom: 0.9375rem;
+    margin-bottom: 1.25rem;
     font-size: 0.8125rem; }
   .mob-nav a {
     color: #7aa7c0; }
   .mob-nav a:hover {
-    padding-bottom: 5px;
+    padding-bottom: 8px;
     border-bottom: solid 1.5px white;
     color: #fefefe; }
 

@@ -37,14 +37,14 @@
   }
 
   li{
-    margin-bottom: rem-calc(15);
+    margin-bottom: rem-calc(20);
     font-size: rem-calc(13);
   }
   a{
     color: #7aa7c0;
   }
   a:hover{
-    padding-bottom: 5px;
+    padding-bottom: 8px;
     border-bottom: solid 1.5px white;
     color: $white;
   }
