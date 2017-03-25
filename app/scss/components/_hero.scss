@@ -1,0 +1,21 @@
+.hero{
+  background-color: #386680;
+  padding: rem-calc(40) rem-calc(50) rem-calc(170) rem-calc(70);
+  background-image: url('../../img/hero_bg.png');
+  background-repeat: no-repeat;
+  background-size: 90%;
+
+  background-position: rem-calc(15) rem-calc(270);
+
+}
+
+h1{
+  color: $white;
+  font-size: rem-calc(20);
+}
+
+p{
+  font-size: rem-calc(9);
+  color: #7aa7c0;
+  margin-left: rem-calc(5);
+}

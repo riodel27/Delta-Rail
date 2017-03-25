@@ -3837,3 +3837,20 @@ a.thumbnail {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -3px);
   background-color: #0a0a0a; }
+
+.hero {
+  background-color: #386680;
+  padding: 2.5rem 3.125rem 10.625rem 4.375rem;
+  background-image: url("../../img/hero_bg.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: 0.9375rem 16.875rem; }
+
+h1 {
+  color: #fefefe;
+  font-size: 1.25rem; }
+
+p {
+  font-size: 0.5625rem;
+  color: #7aa7c0;
+  margin-left: 0.3125rem; }
