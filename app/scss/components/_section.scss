@@ -1,6 +1,49 @@
 .our-services{
+  text-align: center;
+  padding:rem-calc(50) rem-calc(5);
   h3{
     color: #386680;
-    font-size: rem-calc(20);
+    font-size: rem-calc(24);
+  }
+  p{
+    color: #888888;
+    font-size: rem-calc(8);
+  }
+
+  .services{
+    padding: rem-calc(40) 0;
+
+    .transports{
+      margin-bottom: rem-calc(60);
+      img{
+        margin-bottom: rem-calc(15);
+      }
+
+      h6{
+        color: #386680;
+        font-size: rem-calc(14);
+      }
+
+      p{
+        color: #aaaaaa;
+        font-size: rem-calc(9);
+      }
+
+      a{
+        background-color: $white;
+        color: #386680;
+        border: solid 2px #386680;
+        font-size: rem-calc(10);
+        margin-top: rem-calc(15);
+        font-weight: bold;
+      }
+
+      a:hover{
+        background-color: #386680;
+        color: $white;
+      }
+
+    }
+
   }
 }
