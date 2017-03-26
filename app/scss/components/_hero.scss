@@ -10,11 +10,15 @@
 
 h1{
   color: $white;
-  font-size: rem-calc(20);
+  font-size: rem-calc(26);
+  font-family: 'Fjalla One', sans-serif;
 }
 
 p{
   font-size: rem-calc(9);
   color: #7aa7c0;
   margin-left: rem-calc(3);
+  padding-right: rem-calc(10);
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: lighter;
 }

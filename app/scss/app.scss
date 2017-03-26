@@ -3,6 +3,7 @@
 @import "foundation";
 @import "settings/foundation";
 @import "tools/mixins";
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 
 @include foundation-global-styles;
 @include foundation-grid;

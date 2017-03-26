@@ -5,6 +5,7 @@
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
        ========================================================================== */
@@ -3818,7 +3819,8 @@ a.thumbnail {
     text-align: center; }
   .mob-nav li {
     margin-bottom: 1.25rem;
-    font-size: 0.8125rem; }
+    font-size: 0.8125rem;
+    font-family: 'Fjalla One', sans-serif; }
   .mob-nav a {
     color: #7aa7c0; }
   .mob-nav a:hover {
@@ -3849,43 +3851,13 @@ a.thumbnail {
 
 h1 {
   color: #fefefe;
-  font-size: 1.25rem; }
+  font-size: 1.625rem;
+  font-family: 'Fjalla One', sans-serif; }
 
 p {
   font-size: 0.5625rem;
   color: #7aa7c0;
-  margin-left: 0.1875rem; }
-
-.our-services {
-  text-align: center;
-  padding: 3.125rem 0.3125rem; }
-  .our-services h3 {
-    color: #386680;
-    font-size: 1.5rem; }
-  .our-services p {
-    color: #888888;
-    font-size: 0.5rem; }
-  .our-services .services {
-    padding: 2.5rem 0; }
-    .our-services .services .transports {
-      margin-bottom: 3.75rem; }
-      .our-services .services .transports img {
-        margin-bottom: 0.9375rem; }
-      .our-services .services .transports h6 {
-        color: #386680;
-        font-size: 0.875rem; }
-      .our-services .services .transports p {
-        color: #aaaaaa;
-        font-size: 0.5625rem; }
-      .our-services .services .transports a {
-        background-color: #fefefe;
-        color: #386680;
-        border: solid 2px #386680;
-        font-size: 0.625rem;
-        margin-top: 0.9375rem;
-        font-weight: bold; }
-      .our-services .services .transports a:hover {
-        background-color: #386680;
-        color: #fefefe; }
-  .our-services p {
-    color: #888888; }
+  margin-left: 0.1875rem;
+  padding-right: 0.625rem;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: lighter; }

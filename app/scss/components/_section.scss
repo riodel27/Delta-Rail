@@ -3,11 +3,16 @@
   padding:rem-calc(50) rem-calc(5);
   h3{
     color: #386680;
-    font-size: rem-calc(24);
+    font-size: rem-calc(25);
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
   }
   p{
     color: #888888;
-    font-size: rem-calc(8);
+    font-size: rem-calc(9);
+    font-family: 'Fjalla One', sans-serif;
+    padding-right: 0;
+    font-weight:50;
   }
 
   .services{
@@ -22,11 +27,15 @@
       h6{
         color: #386680;
         font-size: rem-calc(14);
+        font-family: 'Fjalla One', sans-serif;
+        letter-spacing: rem-calc(1.5);
       }
 
       p{
         color: #aaaaaa;
         font-size: rem-calc(9);
+        letter-spacing: rem-calc(1.5);
+        font-family: 'Fjalla One', sans-serif;
       }
 
       a{
@@ -36,6 +45,10 @@
         font-size: rem-calc(10);
         margin-top: rem-calc(15);
         font-weight: bold;
+        font-family: 'Fjalla One', sans-serif;
+        letter-spacing: rem-calc(2);
+        font-weight: lighter;
+        padding: rem-calc(8) rem-calc(13);
       }
 
       a:hover{
