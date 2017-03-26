@@ -3856,7 +3856,6 @@ p {
   color: #7aa7c0;
   margin-left: 0.1875rem; }
 
-<<<<<<< HEAD
 .our-services {
   text-align: center;
   padding: 3.125rem 0.3125rem; }
@@ -3888,11 +3887,5 @@ p {
       .our-services .services .transports a:hover {
         background-color: #386680;
         color: #fefefe; }
-=======
-.our-services h3 {
-  color: #386680;
-  font-size: 1.25rem; }
-
-.our-services p {
-  color: #888888; }
->>>>>>> master
+  .our-services p {
+    color: #888888; }
