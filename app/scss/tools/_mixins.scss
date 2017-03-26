@@ -1,6 +1,6 @@
 @mixin  bp($point){
 	@if $point == mobile {
-		@media (min-width: 20em) {@content;}
+		@media (min-width: 20em){@content;}
 	}
 
 	@else if $point == tablet {
