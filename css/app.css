@@ -3919,12 +3919,13 @@ p {
     font-size: 0.625rem;
     text-align: center;
     color: #fefefe;
-    margin-bottom: 1.25rem; }
+    margin-bottom: 1.25rem;
+    letter-spacing: 0.09375rem; }
     .footer span a {
       color: #fefefe; }
   .footer .email {
     text-align: justify;
-    padding-left: 6.75rem; }
+    padding-left: 5.9375rem; }
   .footer .footer-nav {
     margin: 2.5rem 0 1.25rem 0; }
     .footer .footer-nav ul {
@@ -3936,10 +3937,13 @@ p {
         flex: 1;
         font-size: 0.75rem;
         margin: 0.9375rem 0 0.3125rem 0;
-        font-family: 'Fjalla One', sans-serif; }
+        font-family: 'Fjalla One', sans-serif;
+        letter-spacing: 0.09375rem; }
       .footer .footer-nav ul a {
         color: #7aa7c0; }
   .footer p {
     text-align: center;
     font-size: 0.5625rem;
-    margin: 2.5rem 0 0 0; }
+    margin: 2.5rem 0 0 0;
+    letter-spacing: 0.09375rem;
+    padding: 0; }
