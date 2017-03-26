@@ -3911,7 +3911,7 @@ p {
 
 .footer {
   background-color: #386680;
-  padding: 6.25rem 0 0 0; }
+  padding: 3.125rem 0 1.25rem 0; }
   .footer span {
     display: block;
     font-family: 'Fjalla One', sans-serif;
@@ -3925,14 +3925,21 @@ p {
   .footer .email {
     text-align: justify;
     padding-left: 6.75rem; }
-  .footer .footer-nav ul {
-    max-width: 320px;
-    list-style-type: none;
-    margin: 0;
-    text-align: center; }
-    .footer .footer-nav ul li {
-      flex: 1;
-      font-size: 0.625rem;
-      margin-bottom: 0.3125rem; }
-    .footer .footer-nav ul a {
-      color: #7aa7c0; }
+  .footer .footer-nav {
+    margin: 2.5rem 0 1.25rem 0; }
+    .footer .footer-nav ul {
+      max-width: 320px;
+      list-style-type: none;
+      margin: 0;
+      text-align: center; }
+      .footer .footer-nav ul li {
+        flex: 1;
+        font-size: 0.75rem;
+        margin: 0.9375rem 0 0.3125rem 0;
+        font-family: 'Fjalla One', sans-serif; }
+      .footer .footer-nav ul a {
+        color: #7aa7c0; }
+  .footer p {
+    text-align: center;
+    font-size: 0.5625rem;
+    margin: 2.5rem 0 0 0; }

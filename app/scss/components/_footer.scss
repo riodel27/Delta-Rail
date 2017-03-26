@@ -4,7 +4,7 @@
   // background-repeat: no-repeat;
   // background-size:150%;
   // background-position: -80px 40px;
-  padding: rem-calc(100) 0 0 0;
+  padding: rem-calc(50) 0 rem-calc(20) 0;
 
   span{
     display: block;
@@ -25,6 +25,7 @@
   }
 
   .footer-nav{
+    margin: rem-calc(40) 0 rem-calc(20) 0;
     ul{
       max-width: 320px;
       list-style-type: none;
@@ -32,8 +33,9 @@
       text-align: center;
       li{
         flex: 1;
-        font-size: rem-calc(10);
-        margin-bottom: rem-calc(5);
+        font-size: rem-calc(12);
+        margin: rem-calc(15) 0 rem-calc(5) 0;
+        font-family: 'Fjalla One', sans-serif;
       }
 
       a{
@@ -41,5 +43,13 @@
       }
     }
 
+
+
+  }
+
+  p{
+    text-align: center;
+    font-size: rem-calc(9);
+    margin: rem-calc(40) 0 rem-calc(0) 0;
   }
 }
