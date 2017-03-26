@@ -3864,7 +3864,7 @@ p {
 
 .our-services {
   text-align: center;
-  padding: 3.125rem 0.3125rem; }
+  padding: 3.125rem 0.3125rem 0 0.3125rem; }
   .our-services h3 {
     color: #386680;
     font-size: 1.5625rem;
@@ -3908,3 +3908,31 @@ p {
         color: #fefefe; }
   .our-services p {
     color: #888888; }
+
+.footer {
+  background-color: #386680;
+  padding: 6.25rem 0 0 0; }
+  .footer span {
+    display: block;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 100;
+    font-size: 0.625rem;
+    text-align: center;
+    color: #fefefe;
+    margin-bottom: 1.25rem; }
+    .footer span a {
+      color: #fefefe; }
+  .footer .email {
+    text-align: justify;
+    padding-left: 6.75rem; }
+  .footer .footer-nav ul {
+    max-width: 320px;
+    list-style-type: none;
+    margin: 0;
+    text-align: center; }
+    .footer .footer-nav ul li {
+      flex: 1;
+      font-size: 0.625rem;
+      margin-bottom: 0.3125rem; }
+    .footer .footer-nav ul a {
+      color: #7aa7c0; }
