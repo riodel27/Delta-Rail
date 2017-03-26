@@ -5,7 +5,6 @@
   // background-size:150%;
   // background-position: -80px 40px;
   padding: rem-calc(50) 0 rem-calc(20) 0;
-
   span{
     display: block;
     font-family: 'Fjalla One', sans-serif;
@@ -15,16 +14,14 @@
     color: $white;
     margin-bottom: rem-calc(20);
     letter-spacing: rem-calc(1.5);
-        a{
-          color: $white;
-        }
+    a{
+      color: $white;
+    }
   }
-
   .email{
     text-align: justify;
     padding-left: rem-calc(95);
   }
-
   .footer-nav{
     margin: rem-calc(40) 0 rem-calc(20) 0;
     ul{
@@ -39,16 +36,11 @@
         font-family: 'Fjalla One', sans-serif;
         letter-spacing: rem-calc(1.5);
       }
-
       a{
         color: #7aa7c0;
       }
     }
-
-
-
   }
-
   p{
     text-align: center;
     font-size: rem-calc(9);
