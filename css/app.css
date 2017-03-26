@@ -3803,15 +3803,15 @@ a.thumbnail {
     flex: 1;
     cursor: pointer;
     padding: 1.875rem 0 0 1.25rem; }
+    @media (min-width: 48em) {
+      .header .icon {
+        display: none; } }
     .header .icon .bar1, .header .icon .bar2, .header .icon .bar3 {
       width: 2rem;
       height: 0.25rem;
       background-color: #767676;
       margin: 0.3125rem 0;
       transition: 0.5s; }
-    @media (min-width: 350px) {
-      .header .icon {
-        display: none; } }
   .header .nav {
     display: none; }
     @media (min-width: 48em) {
@@ -3839,6 +3839,9 @@ a.thumbnail {
   background-color: #386680;
   padding-bottom: 1.25rem;
   padding-top: 1.25rem; }
+  @media (min-width: 48em) {
+    .mob-nav {
+      display: none; } }
   .mob-nav ul {
     list-style-type: none;
     text-align: center; }
