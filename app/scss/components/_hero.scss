@@ -5,12 +5,20 @@
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: rem-calc(15) rem-calc(270);
+  @include bp(tablet){
+  padding: rem-calc(80) rem-calc(50) rem-calc(230) rem-calc(70);
+  background-size: 60%;
+  background-position: rem-calc(150) rem-calc(330);
+  }
 }
 
 h1{
   color: $white;
   font-size: rem-calc(26);
   font-family: 'Fjalla One', sans-serif;
+  @include bp(tablet){
+  padding: rem-calc(0) rem-calc(225);
+  }
 }
 
 p{
@@ -20,4 +28,8 @@ p{
   padding-right: rem-calc(10);
   font-family: 'Fjalla One', sans-serif;
   font-weight: lighter;
+  @include bp(tablet){
+  padding: rem-calc(0) rem-calc(230);
+  margin-left: 0;
+  }
 }

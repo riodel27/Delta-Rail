@@ -3824,7 +3824,8 @@ a.thumbnail {
           display: flex;
           padding-top: 2.5rem; }
         .header .nav li {
-          flex: 1 1 0; }
+          flex: 1 1 0;
+          text-align: center; }
         .header .nav a {
           font-size: 0.875rem;
           font-family: 'Fjalla One', sans-serif;
@@ -3876,11 +3877,19 @@ a.thumbnail {
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: 0.9375rem 16.875rem; }
+  @media (min-width: 48em) {
+    .hero {
+      padding: 5rem 3.125rem 14.375rem 4.375rem;
+      background-size: 60%;
+      background-position: 9.375rem 20.625rem; } }
 
 h1 {
   color: #fefefe;
   font-size: 1.625rem;
   font-family: 'Fjalla One', sans-serif; }
+  @media (min-width: 48em) {
+    h1 {
+      padding: 0 14.0625rem; } }
 
 p {
   font-size: 0.5625rem;
@@ -3889,6 +3898,10 @@ p {
   padding-right: 0.625rem;
   font-family: 'Fjalla One', sans-serif;
   font-weight: lighter; }
+  @media (min-width: 48em) {
+    p {
+      padding: 0 14.375rem;
+      margin-left: 0; } }
 
 .our-services {
   text-align: center;
