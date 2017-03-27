@@ -1,10 +1,13 @@
 .footer{
   background-color: #386680;
-  // background-image: url('../../img/footerbg.png');
-  // background-repeat: no-repeat;
-  // background-size:150%;
-  // background-position: -80px 40px;
   padding: rem-calc(50) 0 rem-calc(20) 0;
+  @include bp(tablet){
+  background-image: url('../../img/footerbg.png');
+  background-repeat: no-repeat;
+  background-size:120%;
+  background-position: -80px 40px;
+  padding: rem-calc(150) 0 rem-calc(20) 0;
+  }
   span{
     display: block;
     font-family: 'Fjalla One', sans-serif;
@@ -21,20 +24,32 @@
   .email{
     text-align: justify;
     padding-left: rem-calc(95);
+    @include bp(tablet){
+    padding-left: rem-calc(320);
+    }
   }
   .footer-nav{
     margin: rem-calc(40) 0 rem-calc(20) 0;
+    @include bp(tablet){
+    margin: rem-calc(20) 0 rem-calc(0) 0;
+    }
     ul{
-      max-width: 320px;
+      // max-width: 320px;
       list-style-type: none;
       margin: 0;
       text-align: center;
+      @include bp(tablet){
+      display: flex;
+      padding: rem-calc(0) rem-calc(150);
+      }
       li{
-        flex: 1;
         font-size: rem-calc(12);
         margin: rem-calc(15) 0 rem-calc(5) 0;
         font-family: 'Fjalla One', sans-serif;
         letter-spacing: rem-calc(1.5);
+        @include bp(tablet){
+        flex: 1 1 0;
+        }
       }
       a{
         color: #7aa7c0;
@@ -47,5 +62,8 @@
     margin: rem-calc(40) 0 rem-calc(0) 0;
     letter-spacing: rem-calc(1.5);
     padding: 0;
+    @include bp(tablet){
+    margin: rem-calc(30) 0 rem-calc(0) 0;
+    }
   }
 }

@@ -3971,6 +3971,13 @@ p {
 .footer {
   background-color: #386680;
   padding: 3.125rem 0 1.25rem 0; }
+  @media (min-width: 48em) {
+    .footer {
+      background-image: url("../../img/footerbg.png");
+      background-repeat: no-repeat;
+      background-size: 120%;
+      background-position: -80px 40px;
+      padding: 9.375rem 0 1.25rem 0; } }
   .footer span {
     display: block;
     font-family: 'Fjalla One', sans-serif;
@@ -3985,19 +3992,30 @@ p {
   .footer .email {
     text-align: justify;
     padding-left: 5.9375rem; }
+    @media (min-width: 48em) {
+      .footer .email {
+        padding-left: 20rem; } }
   .footer .footer-nav {
     margin: 2.5rem 0 1.25rem 0; }
+    @media (min-width: 48em) {
+      .footer .footer-nav {
+        margin: 1.25rem 0 0 0; } }
     .footer .footer-nav ul {
-      max-width: 320px;
       list-style-type: none;
       margin: 0;
       text-align: center; }
+      @media (min-width: 48em) {
+        .footer .footer-nav ul {
+          display: flex;
+          padding: 0 9.375rem; } }
       .footer .footer-nav ul li {
-        flex: 1;
         font-size: 0.75rem;
         margin: 0.9375rem 0 0.3125rem 0;
         font-family: 'Fjalla One', sans-serif;
         letter-spacing: 0.09375rem; }
+        @media (min-width: 48em) {
+          .footer .footer-nav ul li {
+            flex: 1 1 0; } }
       .footer .footer-nav ul a {
         color: #7aa7c0; }
   .footer p {
@@ -4006,3 +4024,6 @@ p {
     margin: 2.5rem 0 0 0;
     letter-spacing: 0.09375rem;
     padding: 0; }
+    @media (min-width: 48em) {
+      .footer p {
+        margin: 1.875rem 0 0 0; } }
