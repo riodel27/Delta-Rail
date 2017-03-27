@@ -10,6 +10,11 @@
   background-size: 60%;
   background-position: rem-calc(150) rem-calc(330);
   }
+  @include bp(desktop){
+  padding: rem-calc(100) rem-calc(50) rem-calc(300) rem-calc(70);
+  background-size: 60%;
+  background-position: rem-calc(180) rem-calc(455);
+  }
 }
 
 h1{
@@ -18,6 +23,11 @@ h1{
   font-family: 'Fjalla One', sans-serif;
   @include bp(tablet){
   padding: rem-calc(0) rem-calc(225);
+  }
+  @include bp(desktop){
+  font-size: rem-calc(40);
+  padding: rem-calc(0) rem-calc(290);
+  margin: 0 0 rem-calc(20) 0;
   }
 }
 
@@ -31,5 +41,9 @@ p{
   @include bp(tablet){
   padding: rem-calc(0) rem-calc(230);
   margin-left: 0;
+  }
+  @include bp(desktop){
+  font-size: rem-calc(13);
+  padding: rem-calc(0) rem-calc(305) 0 rem-calc(295);
   }
 }

@@ -3909,6 +3909,11 @@ a.thumbnail {
       padding: 5rem 3.125rem 14.375rem 4.375rem;
       background-size: 60%;
       background-position: 9.375rem 20.625rem; } }
+  @media (min-width: 62em) {
+    .hero {
+      padding: 6.25rem 3.125rem 18.75rem 4.375rem;
+      background-size: 60%;
+      background-position: 11.25rem 28.4375rem; } }
 
 h1 {
   color: #fefefe;
@@ -3917,6 +3922,11 @@ h1 {
   @media (min-width: 48em) {
     h1 {
       padding: 0 14.0625rem; } }
+  @media (min-width: 62em) {
+    h1 {
+      font-size: 2.5rem;
+      padding: 0 18.125rem;
+      margin: 0 0 1.25rem 0; } }
 
 p {
   font-size: 0.5625rem;
@@ -3929,6 +3939,10 @@ p {
     p {
       padding: 0 14.375rem;
       margin-left: 0; } }
+  @media (min-width: 62em) {
+    p {
+      font-size: 0.8125rem;
+      padding: 0 19.0625rem 0 18.4375rem; } }
 
 .our-services {
   text-align: center;
