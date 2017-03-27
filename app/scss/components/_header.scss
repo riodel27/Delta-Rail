@@ -13,11 +13,32 @@
       margin: rem-calc(30) rem-calc(10) rem-calc(10) rem-calc(30);
       width: 50%;
       }
+      @include bp(desktop){
+      margin: rem-calc(30) rem-calc(10) rem-calc(10) rem-calc(10);
+      width: 85%;
+      }
     }
 
   }
   .contact-info{
     display: none;
+    @include bp(desktop){
+    display: flex;
+    flex: 2 1 0;
+    }
+    span{
+      color: #7aa7c0;
+      font-size: rem-calc(11);
+      font-family: 'Fjalla One', sans-serif;
+      font-weight: 100;
+      @include bp(desktop){
+      flex: 1 1 0;
+      padding: rem-calc(40) 0 0 rem-calc(40);
+      }
+    }
+    a{
+      color: #7aa7c0;
+    }
   }
   .icon{
     flex: 1;
@@ -49,12 +70,19 @@
         font-size: rem-calc(14);
         font-family: 'Fjalla One', sans-serif;
         color: #7aa7c0;
+        @include bp(desktop){
+        font-size: rem-calc(11);
+        }
       }
       a:hover{
         padding-bottom: 8px;
         border-bottom: solid 1.5px white;
         color: $white;
       }
+    }
+    @include bp(desktop){
+    flex: 3 1 0;
+    padding-left: rem-calc(20);
     }
   }
 }

@@ -3797,8 +3797,27 @@ a.thumbnail {
         .header .logo img {
           margin: 1.875rem 0.625rem 0.625rem 1.875rem;
           width: 50%; } }
+      @media (min-width: 62em) {
+        .header .logo img {
+          margin: 1.875rem 0.625rem 0.625rem 0.625rem;
+          width: 85%; } }
   .header .contact-info {
     display: none; }
+    @media (min-width: 62em) {
+      .header .contact-info {
+        display: flex;
+        flex: 2 1 0; } }
+    .header .contact-info span {
+      color: #7aa7c0;
+      font-size: 0.6875rem;
+      font-family: 'Fjalla One', sans-serif;
+      font-weight: 100; }
+      @media (min-width: 62em) {
+        .header .contact-info span {
+          flex: 1 1 0;
+          padding: 2.5rem 0 0 2.5rem; } }
+    .header .contact-info a {
+      color: #7aa7c0; }
   .header .icon {
     flex: 1;
     cursor: pointer;
@@ -3829,11 +3848,19 @@ a.thumbnail {
         .header .nav a {
           font-size: 0.875rem;
           font-family: 'Fjalla One', sans-serif;
-          color: #7aa7c0; }
+          color: #7aa7c0; } }
+    @media (min-width: 48em) and (min-width: 62em) {
+      .header .nav a {
+        font-size: 0.6875rem; } }
+    @media (min-width: 48em) {
         .header .nav a:hover {
           padding-bottom: 8px;
           border-bottom: solid 1.5px white;
           color: #fefefe; } }
+    @media (min-width: 62em) {
+      .header .nav {
+        flex: 3 1 0;
+        padding-left: 1.25rem; } }
 
 .mob-nav {
   display: none;
