@@ -8,6 +8,11 @@
   background-position: -80px 40px;
   padding: rem-calc(150) 0 rem-calc(20) 0;
   }
+  @include bp(desktop){
+  background-size: 100%;
+  background-position: 0 rem-calc(80);
+  padding: rem-calc(225) 0 rem-calc(10) 0;
+  }
   span{
     display: block;
     font-family: 'Fjalla One', sans-serif;
@@ -27,11 +32,17 @@
     @include bp(tablet){
     padding-left: rem-calc(320);
     }
+    @include bp(desktop){
+    padding-left: rem-calc(432);
+    }
   }
   .footer-nav{
     margin: rem-calc(40) 0 rem-calc(20) 0;
     @include bp(tablet){
     margin: rem-calc(20) 0 rem-calc(0) 0;
+    }
+    @include bp(desktop){
+    margin: rem-calc(30) 0 rem-calc(30) 0;
     }
     ul{
       // max-width: 320px;
@@ -41,6 +52,9 @@
       @include bp(tablet){
       display: flex;
       padding: rem-calc(0) rem-calc(150);
+      }
+      @include bp(desktop){
+      padding: rem-calc(0) rem-calc(250);
       }
       li{
         font-size: rem-calc(12);
@@ -64,6 +78,9 @@
     padding: 0;
     @include bp(tablet){
     margin: rem-calc(30) 0 rem-calc(0) 0;
+    }
+    @include bp(desktop){
+    margin: rem-calc(0) 0 rem-calc(0) 0;
     }
   }
 }
