@@ -3791,6 +3791,9 @@ a.thumbnail {
     @media (min-width: 48em) {
       .header .logo {
         flex: 1; } }
+    @media (min-width: 75em) {
+      .header .logo {
+        padding-left: 1.875rem; } }
     .header .logo img {
       margin: 1.25rem 0.625rem; }
       @media (min-width: 48em) {
@@ -3801,11 +3804,18 @@ a.thumbnail {
         .header .logo img {
           margin: 1.875rem 0.625rem 0.625rem 0.625rem;
           width: 85%; } }
+      @media (min-width: 75em) {
+        .header .logo img {
+          margin: 2.1875rem 0.625rem 0.625rem 0;
+          width: 75%; } }
   .header .contact-info {
     display: none; }
     @media (min-width: 62em) {
       .header .contact-info {
         display: flex;
+        flex: 2 1 0; } }
+    @media (min-width: 75em) {
+      .header .contact-info {
         flex: 2 1 0; } }
     .header .contact-info span {
       color: #7aa7c0;
@@ -3816,6 +3826,10 @@ a.thumbnail {
         .header .contact-info span {
           flex: 1 1 0;
           padding: 2.5rem 0 0 2.5rem; } }
+      @media (min-width: 75em) {
+        .header .contact-info span {
+          padding: 2.6875rem 0 0 0.625rem;
+          font-size: 0.875rem; } }
     .header .contact-info a {
       color: #7aa7c0; }
   .header .icon {
@@ -3841,7 +3855,11 @@ a.thumbnail {
           list-style-type: none;
           flex: 1;
           display: flex;
-          padding-top: 2.5rem; }
+          padding-top: 2.5rem; } }
+    @media (min-width: 48em) and (min-width: 75em) {
+      .header .nav ul {
+        padding-top: 2.625rem; } }
+    @media (min-width: 48em) {
         .header .nav li {
           flex: 1 1 0;
           text-align: center; }
@@ -3852,6 +3870,9 @@ a.thumbnail {
     @media (min-width: 48em) and (min-width: 62em) {
       .header .nav a {
         font-size: 0.6875rem; } }
+    @media (min-width: 48em) and (min-width: 75em) {
+      .header .nav a {
+        font-size: 1rem; } }
     @media (min-width: 48em) {
         .header .nav a:hover {
           padding-bottom: 8px;
@@ -3861,6 +3882,9 @@ a.thumbnail {
       .header .nav {
         flex: 3 1 0;
         padding-left: 1.25rem; } }
+    @media (min-width: 75em) {
+      .header .nav {
+        flex: 3 1 0; } }
 
 .mob-nav {
   display: none;

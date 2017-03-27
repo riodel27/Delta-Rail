@@ -7,6 +7,9 @@
     @include bp(tablet){
     flex: 1;
     }
+    @include bp(wide){
+    padding-left: rem-calc(30);
+    }
     img{
       margin: rem-calc(20) rem-calc(10);
       @include bp(tablet){
@@ -17,6 +20,10 @@
       margin: rem-calc(30) rem-calc(10) rem-calc(10) rem-calc(10);
       width: 85%;
       }
+      @include bp(wide){
+      margin: rem-calc(35) rem-calc(10) rem-calc(10) rem-calc(0);
+      width: 75%;
+      }
     }
 
   }
@@ -24,6 +31,9 @@
     display: none;
     @include bp(desktop){
     display: flex;
+    flex: 2 1 0;
+    }
+    @include bp(wide){
     flex: 2 1 0;
     }
     span{
@@ -34,6 +44,10 @@
       @include bp(desktop){
       flex: 1 1 0;
       padding: rem-calc(40) 0 0 rem-calc(40);
+      }
+      @include bp(wide){
+      padding: rem-calc(43) 0 0 rem-calc(10);
+      font-size: rem-calc(14);
       }
     }
     a{
@@ -61,6 +75,9 @@
         flex: 1;
         display: flex;
         padding-top: rem-calc(40);
+        @include bp(wide){
+        padding-top: rem-calc(42);
+        }
       }
       li{
         flex: 1 1 0;
@@ -73,6 +90,9 @@
         @include bp(desktop){
         font-size: rem-calc(11);
         }
+        @include bp(wide){
+        font-size: rem-calc(16);
+        }
       }
       a:hover{
         padding-bottom: 8px;
@@ -83,6 +103,9 @@
     @include bp(desktop){
     flex: 3 1 0;
     padding-left: rem-calc(20);
+    }
+    @include bp(wide){
+    flex: 3 1 0;
     }
   }
 }
