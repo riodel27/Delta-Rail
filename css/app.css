@@ -4101,6 +4101,11 @@ p {
       background-size: 100%;
       background-position: 0 5rem;
       padding: 14.0625rem 0 0.625rem 0; } }
+  @media (min-width: 75em) {
+    .footer {
+      background-size: stretch;
+      background-position: 0 6.25rem;
+      padding: 20rem 0 0.625rem 0; } }
   .footer span {
     display: block;
     font-family: 'Fjalla One', sans-serif;
@@ -4110,6 +4115,9 @@ p {
     color: #fefefe;
     margin-bottom: 1.25rem;
     letter-spacing: 0.09375rem; }
+    @media (min-width: 75em) {
+      .footer span {
+        font-size: 0.75rem; } }
     .footer span a {
       color: #fefefe; }
   .footer .email {
@@ -4121,6 +4129,9 @@ p {
     @media (min-width: 62em) {
       .footer .email {
         padding-left: 27rem; } }
+    @media (min-width: 75em) {
+      .footer .email {
+        padding-left: 38.25rem; } }
   .footer .footer-nav {
     margin: 2.5rem 0 1.25rem 0; }
     @media (min-width: 48em) {
@@ -4129,6 +4140,9 @@ p {
     @media (min-width: 62em) {
       .footer .footer-nav {
         margin: 1.875rem 0 1.875rem 0; } }
+    @media (min-width: 75em) {
+      .footer .footer-nav {
+        margin: 3.125rem 0 3.125rem 0; } }
     .footer .footer-nav ul {
       list-style-type: none;
       margin: 0;
@@ -4140,6 +4154,9 @@ p {
       @media (min-width: 62em) {
         .footer .footer-nav ul {
           padding: 0 15.625rem; } }
+      @media (min-width: 75em) {
+        .footer .footer-nav ul {
+          padding: 0 28.125rem; } }
       .footer .footer-nav ul li {
         font-size: 0.75rem;
         margin: 0.9375rem 0 0.3125rem 0;
@@ -4148,6 +4165,9 @@ p {
         @media (min-width: 48em) {
           .footer .footer-nav ul li {
             flex: 1 1 0; } }
+        @media (min-width: 75em) {
+          .footer .footer-nav ul li {
+            font-size: 0.875rem; } }
       .footer .footer-nav ul a {
         color: #7aa7c0; }
   .footer p {
@@ -4162,3 +4182,7 @@ p {
     @media (min-width: 62em) {
       .footer p {
         margin: 0 0 0 0; } }
+    @media (min-width: 75em) {
+      .footer p {
+        font-size: 0.75rem;
+        padding-left: 2.5rem; } }

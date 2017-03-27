@@ -13,6 +13,11 @@
   background-position: 0 rem-calc(80);
   padding: rem-calc(225) 0 rem-calc(10) 0;
   }
+  @include bp(wide){
+  background-size: stretch;
+  background-position: 0 rem-calc(100);
+  padding: rem-calc(320) 0 rem-calc(10) 0;
+  }
   span{
     display: block;
     font-family: 'Fjalla One', sans-serif;
@@ -22,6 +27,9 @@
     color: $white;
     margin-bottom: rem-calc(20);
     letter-spacing: rem-calc(1.5);
+    @include bp(wide){
+    font-size: rem-calc(12);
+    }
     a{
       color: $white;
     }
@@ -35,6 +43,9 @@
     @include bp(desktop){
     padding-left: rem-calc(432);
     }
+    @include bp(wide){
+    padding-left: rem-calc(612);
+    }
   }
   .footer-nav{
     margin: rem-calc(40) 0 rem-calc(20) 0;
@@ -43,6 +54,9 @@
     }
     @include bp(desktop){
     margin: rem-calc(30) 0 rem-calc(30) 0;
+    }
+    @include bp(wide){
+    margin: rem-calc(50) 0 rem-calc(50) 0;
     }
     ul{
       // max-width: 320px;
@@ -56,6 +70,9 @@
       @include bp(desktop){
       padding: rem-calc(0) rem-calc(250);
       }
+      @include bp(wide){
+      padding: rem-calc(0) rem-calc(450);
+      }
       li{
         font-size: rem-calc(12);
         margin: rem-calc(15) 0 rem-calc(5) 0;
@@ -63,6 +80,9 @@
         letter-spacing: rem-calc(1.5);
         @include bp(tablet){
         flex: 1 1 0;
+        }
+        @include bp(wide){
+        font-size: rem-calc(14);
         }
       }
       a{
@@ -81,6 +101,10 @@
     }
     @include bp(desktop){
     margin: rem-calc(0) 0 rem-calc(0) 0;
+    }
+    @include bp(wide){
+    font-size: rem-calc(12);
+    padding-left: rem-calc(40);
     }
   }
 }
