@@ -3906,21 +3906,38 @@ p {
 .our-services {
   text-align: center;
   padding: 3.125rem 0.3125rem 0 0.3125rem; }
+  @media (min-width: 48em) {
+    .our-services {
+      padding: 4.375rem 0.3125rem 1.25rem 0.3125rem; } }
   .our-services h3 {
     color: #386680;
     font-size: 1.5625rem;
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 2px; }
+    @media (min-width: 48em) {
+      .our-services h3 {
+        font-size: 1.75rem; } }
   .our-services p {
     color: #888888;
     font-size: 0.5625rem;
     font-family: 'Fjalla One', sans-serif;
     padding-right: 0;
     font-weight: 50; }
+    @media (min-width: 48em) {
+      .our-services p {
+        padding: 0;
+        font-size: 0.625rem; } }
   .our-services .services {
     padding: 2.5rem 0 1.25rem 0; }
+    @media (min-width: 48em) {
+      .our-services .services {
+        display: flex; } }
     .our-services .services .transports {
       margin-bottom: 3.75rem; }
+      @media (min-width: 48em) {
+        .our-services .services .transports {
+          flex: 1 1 0;
+          padding: 2.5rem; } }
       .our-services .services .transports img {
         margin-bottom: 0.9375rem; }
       .our-services .services .transports h6 {
@@ -3933,6 +3950,9 @@ p {
         font-size: 0.5625rem;
         letter-spacing: 0.09375rem;
         font-family: 'Fjalla One', sans-serif; }
+        @media (min-width: 48em) {
+          .our-services .services .transports p {
+            padding: 0; } }
       .our-services .services .transports a {
         background-color: #fefefe;
         color: #386680;
